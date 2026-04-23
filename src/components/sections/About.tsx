@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import styles from "./About.module.css";
 
 const pillars = [
@@ -21,7 +21,7 @@ const pillars = [
     },
 ];
 
-const fadeUp = {
+const fadeUp: Variants = {
     hidden: { opacity: 0, y: 40 },
     visible: (i: number) => ({
         opacity: 1,
