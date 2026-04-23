@@ -1,0 +1,148 @@
+.trainers {
+    background: var(--bg-primary);
+}
+
+.header {
+    margin-bottom: 56px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+/* Card */
+.card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.35s ease;
+}
+
+.card:hover {
+    border-color: var(--border-accent);
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-accent);
+}
+
+/* Image */
+.imageWrap {
+    position: relative;
+    height: 320px;
+    overflow: hidden;
+}
+
+.imageOverlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(22, 22, 22, 1) 0%, transparent 40%);
+    z-index: 1;
+}
+
+.experience {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 2;
+    background: var(--accent);
+    padding: 8px 14px;
+    border-radius: var(--radius-full);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience span {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1;
+}
+
+.experience small {
+    font-size: 0.62rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Info */
+.info {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex-grow: 1;
+}
+
+.specialty {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+.name {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.role {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.bio {
+    font-size: 0.875rem;
+    line-height: 1.65;
+    margin: 8px 0 4px;
+}
+
+.certs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.cert {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    background: var(--bg-elevated);
+    color: var(--text-secondary);
+    padding: 4px 10px;
+    border-radius: var(--radius-full);
+    border: 1px solid var(--border);
+}
+
+.bookBtn {
+    margin-top: auto;
+    padding-top: 14px;
+    width: 100%;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 1024px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
