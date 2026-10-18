@@ -52,7 +52,7 @@ export default function Trainers() {
                         <span className="text-accent">Best in the Game</span>
                     </h2>
                     <p className="text-muted" style={{ maxWidth: 460, marginTop: 16 }}>
-                        Our trainers are more than coaches — they're partners in your
+                        Our trainers are more than coaches — they&#39;re partners in your
                         transformation journey.
                     </p>
                 </motion.div>

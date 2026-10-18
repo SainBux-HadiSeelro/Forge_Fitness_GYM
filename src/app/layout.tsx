@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
+import Chatbot from "@/components/Chatbot/Chatbot";
 
 export const metadata: Metadata = {
   title: "Forge Fitness | Premium Gym & Training",
@@ -21,6 +22,7 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <Chatbot />
       </body>
     </html>
   );
