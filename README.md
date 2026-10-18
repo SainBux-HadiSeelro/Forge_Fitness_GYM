@@ -4,6 +4,7 @@
 
 ### *Don't Just Dream It. Forge It.*
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-forge--fitness--gym-FF4500?style=for-the-badge&logo=vercel&logoColor=white)](https://forge-fitness-gym-seven.vercel.app/)
 [![Next.js](https://img.shields.io/badge/Next.js-16.2.2-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.2.4-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -16,7 +17,9 @@
   A cutting-edge, high-conversion web application for an elite strength and performance athletic facility. Engineered with Next.js 16 App Router, React 19, Framer Motion, custom CSS design tokens, and a 24/7 intelligent live AI Concierge agent.
 </p>
 
-[Explore Specifications](SPECIFICATIONS.md) • [Report Issue](https://github.com/SainBux-HadiSeelro/Forge_Fitness_GYM/issues) • [Author Profile](https://github.com/SainBux-HadiSeelro)
+### 🌐 Live Deployment: [https://forge-fitness-gym-seven.vercel.app/](https://forge-fitness-gym-seven.vercel.app/)
+
+[🚀 View Live App](https://forge-fitness-gym-seven.vercel.app/) • [Explore Specifications](SPECIFICATIONS.md) • [Report Issue](https://github.com/SainBux-HadiSeelro/Forge_Fitness_GYM/issues) • [Author Profile](https://github.com/SainBux-HadiSeelro)
 
 </div>
 

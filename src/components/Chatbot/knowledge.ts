@@ -14,6 +14,7 @@ export const GYM_INFO = {
         address: "1250 Iron Ave, Floor 2, Downtown NY 10001",
         phone: "+1 (212) 555-0184",
         email: "hello@forgefitness.com",
+        website: "https://forge-fitness-gym-seven.vercel.app/",
     },
     hours: {
         weekday: "Monday – Friday: 5:00 AM – 11:00 PM",

@@ -2,6 +2,7 @@
 
 > **Version:** 1.0.0  
 > **Status:** Production-Ready  
+> **Live Deployment:** [https://forge-fitness-gym-seven.vercel.app/](https://forge-fitness-gym-seven.vercel.app/)  
 > **Repository:** [Forge_Fitness_GYM](https://github.com/SainBux-HadiSeelro/Forge_Fitness_GYM.git)  
 > **Framework:** Next.js 16 (Turbopack) & React 19  
 
